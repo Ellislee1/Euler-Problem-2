@@ -7,15 +7,13 @@ By considering the terms in the Fibonacci sequence whose values do not exceed fo
 */
 #include <iostream>
 
-using namespace std;
-
 int main()
 {
  int numOne = 0;
  int numTwo = 1;
  int sum=0;
  int temp=0;
-int num;
+ int num;
  for (num = 0; num <= 3999999; num++){
 
     temp=numOne+numTwo;
@@ -28,5 +26,5 @@ int num;
  }
 
  }
- cout<<sum<<endl;
+ std::cout<<sum<<std::endl;
 }
